@@ -46,7 +46,7 @@ CFLAGS += -I$(DEVKIT65XX)/include
 %.obj: %.asm
 	@echo Doing obj files ... $(fname)
 #	@cp $< $<.savasm 
-	$(AS) -i -o $@ $<  
+	$(AS) -io $< $@  
 
 #---------------------------------------------------------------------------------
 %.asm: %.ps
