@@ -1,3 +1,6 @@
+pvsneslib.tgz: build
+	tar czvf pvsneslib.tgz lib include snes_rules
+
 build: snesdtb_1.0-4.deb snes_rules
 	$(MAKE) -C source
 
@@ -15,6 +18,7 @@ snes_rules:
 
 clean:
 	- rm -rf include source snes_rules lib
+	- rm pvsneslib.tgz
 
 distclean: clean
 	- rm -f snesdtb_1.0-4.deb
