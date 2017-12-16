@@ -1,5 +1,5 @@
 pvsneslib.tgz: build
-	tar czvf pvsneslib.tgz lib include snes_rules
+	tar czvf pvsneslib.tgz snesdtb_1.0-4.deb lib include snes_rules
 
 build: snesdtb_1.0-4.deb snes_rules
 	$(MAKE) -C source
