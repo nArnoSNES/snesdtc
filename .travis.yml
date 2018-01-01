@@ -9,7 +9,7 @@ deploy:
   api-key:
     - secure: "n8L2nJBKFjEWbDuyoarsSSEU5qM6OpYILHyi3ZZ9cfXJQkjKXqyfdsv+IcYzQf6ABH7bWTxQsTOcgyVcP5WpP8e1xgnir5ibDMk9c+wtGuC2z08skF9Of6Ef02wiSRZvbCgyO5FE9NIyXIyacRjuPFszwMqAZujV7MAZ8CYmrLKFcz3b4htm6OsT6GMLQs/pabv4ufS5pLtfTObHmixfvfZePrNvaWkWGVqeZdeCpFCs3wHDGca+hwrRZKZddOxSX8iB7i3nTX1gphzxMAQCx5QxyunDS5w8fFqY/n3X4O7XSNtcyeb8XK57xdQleWUK1EyneusbZfHFds+iODyyg8QZO+g+TkrUorroLd1mT/RRqWrqodtI17pEd/uOi3rgHtln6hG1xNz+noIYaShDCeLlad634cRZefqRbSndx4wrrscod9tTxAxC28yQjme7hak6Bo/lz/cM63vhhShzXmZX2mGYJ9SLgSKawq5EN2wAuzfsKEci6DQNl1jyKq2OL1w0E2hgi7g0hmCS7nNXrovECbKKnh8yeZZoIyz/G/px08ZjdNIC8VkkelmHgIS+NejQfp/xg06Pt/Wx4xw2+OsG7Q9W3n+8LPCxYE+MOeE/QAzN6WxVWeoAy6M7XY+BmCajyOm4ago6LRdBigCWsH7NncwIBgk/ilmUba1IPo4="
   file_glob: true
-  file: 'pvsneslib.tgz'
+  file: 'pvsl'
   skip_cleanup: true
   on:
     tags: true
